@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    tools:context=".activity.MySourceActivity">
+
+    <TextView
+        android:id="@+id/text_my"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp_40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="我的资料"/>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/dp_20"
+        android:layout_below="@id/text_my"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_160"
+        android:background="@drawable/recy_pic"
+        android:layout_marginLeft="@dimen/dp_24"
+        android:layout_marginRight="@dimen/dp_24"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:layout_marginRight="@dimen/dp_20"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我的头像"
+                android:textSize="12sp"
+                android:layout_marginTop="@dimen/dp_6"
+                android:layout_gravity="center_vertical" />
+            <ImageView
+                android:id="@+id/my_tou_pic"
+                android:layout_alignParentRight="true"
+                android:layout_width="@dimen/dp_30"
+                android:layout_height="@dimen/dp_30"
+                android:background="@mipmap/ic_launcher" />
+
+        </RelativeLayout>
+        <TextView
+            android:id="@id/my_tou_pic"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_1"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:layout_marginRight="@dimen/dp_20"
+            android:layout_marginTop="@dimen/dp_5"
+            android:background="@drawable/personaldata" />
+        <RelativeLayout
+            android:layout_marginLeft="@dimen/dp_20"
+            android:layout_marginRight="@dimen/dp_20"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我的昵称"
+                android:textSize="12sp"
+                android:layout_marginTop="@dimen/dp_6"
+                android:layout_gravity="center_vertical" />
+            <TextView
+                android:id="@+id/my_ni_name"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RelativeLayout>
+        <TextView
+            android:id="@id/my_tou_pic"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_1"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:layout_marginRight="@dimen/dp_20"
+            android:layout_marginTop="@dimen/dp_5"
+            android:background="@drawable/personaldata" />
+        <RelativeLayout
+            android:layout_marginLeft="@dimen/dp_20"
+            android:layout_marginRight="@dimen/dp_20"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我的密码"
+                android:textSize="12sp"
+                android:layout_marginTop="@dimen/dp_6"
+                android:layout_gravity="center_vertical" />
+            <TextView
+                android:id="@+id/my_passes"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <TextView
+            android:id="@id/my_tou_pic"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_1"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:layout_marginRight="@dimen/dp_20"
+            android:layout_marginTop="@dimen/dp_5"
+            android:background="@drawable/personaldata" />
+    </LinearLayout>
+</RelativeLayout>

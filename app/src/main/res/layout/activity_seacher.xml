@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF"
+    tools:context=".activity.SeacherActivity">
+
+    <jinyuanyuan.bw.com.androidprojects.custom.MyHeaderView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/myheader_view"/>
+
+    <RelativeLayout
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="搜索历史" />
+        <TextView
+            android:id="@+id/delete"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="删除"/>
+    </RelativeLayout>
+
+    <jinyuanyuan.bw.com.androidprojects.custom.MyFloatLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/my_float_history" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="热门搜索"/>
+
+    <jinyuanyuan.bw.com.androidprojects.custom.MyFloatLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/my_float" />
+
+</LinearLayout>

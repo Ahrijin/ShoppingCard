@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#757575"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_marginLeft="@dimen/dp_20"
+            android:layout_marginRight="@dimen/dp_20"
+            android:layout_marginTop="@dimen/dp_20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#757575"
+            android:paddingRight="@dimen/dp_20"
+            android:paddingBottom="@dimen/dp_10">
+
+            <TextView
+                android:id="@+id/pop_order_elect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="选择"
+                android:layout_marginTop="@dimen/dp_10"
+                android:textColor="#ff5f71"
+                android:textSize="@dimen/sp_12" />
+            <TextView
+                android:layout_marginTop="@dimen/dp_20"
+                android:layout_marginRight="@dimen/dp_30"
+                android:layout_alignParentRight="true"
+                android:layout_width="@dimen/dp_1"
+                android:layout_height="@dimen/dp_47"
+                android:background="#f2f2f2" />
+
+            <TextView
+                android:id="@+id/pop_address_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="姓名"
+                android:layout_marginTop="@dimen/dp_10"
+                android:layout_marginLeft="@dimen/dp_20"
+                android:textColor="#f2f2f2"
+                android:textSize="@dimen/sp_12" />
+
+            <TextView
+                android:id="@+id/pop_address_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="电话"
+                android:layout_marginTop="@dimen/dp_10"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/dp_60"
+                android:textColor="#f2f2f2"
+                android:textSize="@dimen/sp_12" />
+
+            <TextView
+                android:id="@+id/pop_address_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/send_order_address_name"
+                android:layout_marginTop="@dimen/dp_35"
+                android:layout_marginRight="@dimen/dp_50"
+                android:text="地址"
+                android:layout_marginLeft="@dimen/dp_20"
+                android:textColor="#f2f2f2"
+                android:textSize="@dimen/sp_12" />
+
+
+        </RelativeLayout>
+
+
+</LinearLayout>

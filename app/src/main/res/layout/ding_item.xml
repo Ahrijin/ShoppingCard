@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="@dimen/dp_312"
+        android:layout_height="wrap_content"
+        android:background="#757575"
+        android:paddingLeft="@dimen/dp_20"
+        android:paddingTop="@dimen/dp_10"
+        android:paddingRight="@dimen/dp_20"
+        android:paddingBottom="@dimen/dp_10">
+
+        <TextView
+            android:id="@+id/send_order_elect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="选择"
+            android:textColor="#ff5f71"
+            android:textSize="@dimen/sp_12" />
+
+        <TextView
+            android:id="@+id/send_order_erect"
+            android:layout_width="@dimen/dp_1"
+            android:layout_height="@dimen/dp_47"
+            android:layout_marginRight="@dimen/dp_8"
+            android:layout_toLeftOf="@id/send_order_elect"
+            android:background="#f2f2f2" />
+
+        <TextView
+            android:id="@+id/send_order_address_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sfsdfds"
+            android:textColor="#f2f2f2"
+            android:textSize="@dimen/sp_12" />
+
+        <TextView
+            android:id="@+id/send_order_address_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/dp_16"
+            android:layout_toLeftOf="@id/send_order_erect"
+            android:text="fsfsdfsfsd"
+            android:textColor="#f2f2f2"
+            android:textSize="@dimen/sp_12" />
+
+        <TextView
+            android:id="@+id/send_order_address_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/send_order_address_name"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_50"
+            android:text="gdfgfdgsfafsafsfasfsfsfasdfsdfsf"
+            android:textColor="#f2f2f2"
+            android:textSize="@dimen/sp_12" />
+
+        <TextView
+            android:id="@+id/send_order_across"
+            android:layout_width="@dimen/dp_272"
+            android:layout_height="@dimen/dp_1"
+            android:layout_below="@id/send_order_address_address"
+            android:layout_marginTop="@dimen/dp_5"
+            android:background="#f2f2f2" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="@dimen/dp_312"
+        android:layout_height="wrap_content"
+        android:background="#757575"
+        android:paddingLeft="@dimen/dp_20"
+        android:paddingTop="@dimen/dp_10"
+        android:paddingRight="@dimen/dp_20"
+        android:paddingBottom="@dimen/dp_10">
+
+        <TextView
+            android:id="@+id/send_order_elect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="选择"
+            android:textColor="#ff5f71"
+            android:textSize="@dimen/sp_12" />
+
+        <TextView
+            android:id="@+id/send_order_erect"
+            android:layout_width="@dimen/dp_1"
+            android:layout_height="@dimen/dp_47"
+            android:layout_marginRight="@dimen/dp_8"
+            android:layout_toLeftOf="@id/send_order_elect"
+            android:background="#f2f2f2" />
+
+        <TextView
+            android:id="@+id/send_order_address_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sfsdfds"
+            android:textColor="#f2f2f2"
+            android:textSize="@dimen/sp_12" />
+
+        <TextView
+            android:id="@+id/send_order_address_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/dp_16"
+            android:layout_toLeftOf="@id/send_order_erect"
+            android:text="fsfsdfsfsd"
+            android:textColor="#f2f2f2"
+            android:textSize="@dimen/sp_12" />
+
+        <TextView
+            android:id="@+id/send_order_address_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/send_order_address_name"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_50"
+            android:text="gdfgfdgsfafsafsfasfsfsfasdfsdfsf"
+            android:textColor="#f2f2f2"
+            android:textSize="@dimen/sp_12" />
+
+        <TextView
+            android:id="@+id/send_order_across"
+            android:layout_width="@dimen/dp_272"
+            android:layout_height="@dimen/dp_1"
+            android:layout_below="@id/send_order_address_address"
+            android:layout_marginTop="@dimen/dp_5"
+            android:background="#f2f2f2" />
+    </RelativeLayout>
+</LinearLayout>

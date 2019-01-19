@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#FFF"
+    tools:context=".fragment.ContentFragment">
+
+    <com.stx.xhb.xbanner.XBanner xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/xbanner"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_150"
+        android:layout_marginTop="@dimen/dp_20"
+        android:clipChildren="false"
+        app:AutoPlayTime="3000"
+        app:clipChildrenLeftRightMargin="@dimen/dp_30"
+        app:isClipChildrenMode="true"
+        app:isShowIndicatorOnlyOne="false"
+        app:isShowNumberIndicator="true"
+        app:pageChangeDuration="800"></com.stx.xhb.xbanner.XBanner>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_30"
+            android:layout_marginTop="@dimen/dp_30"
+            android:background="@mipmap/bitmap_hot"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="热销新品"
+                android:textColor="#ff7f57"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="@dimen/dp_24"
+                android:layout_height="@dimen/dp_12"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/dp_24"
+                android:src="@mipmap/common_btn_more_yellow_n" />
+        </RelativeLayout>
+        <!--热销新品-->
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycle_hot"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_166"
+            android:layout_marginTop="@dimen/dp_10" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_30"
+            android:layout_marginTop="@dimen/dp_10"
+            android:background="@mipmap/bitmap_mo"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="魔力时尚"
+                android:textColor="#1C86EE"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="@dimen/dp_24"
+                android:layout_height="@dimen/dp_12"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/dp_24"
+                android:src="@mipmap/home_btn_more_purple_n" />
+        </RelativeLayout>
+        <!--魔力时尚-->
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycle_mo"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_245"
+            android:layout_marginTop="@dimen/dp_10" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_30"
+            android:layout_marginTop="@dimen/dp_30"
+            android:background="@mipmap/bitmap_pin"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="品质生活"
+                android:textColor="#DC143C"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:layout_width="@dimen/dp_24"
+                android:layout_height="@dimen/dp_12"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/dp_24"
+                android:src="@mipmap/home_btn_moer_pink_n" />
+        </RelativeLayout>
+        <!--品质生活-->
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycle_pin"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_500"
+            android:layout_marginTop="@dimen/dp_30"/>
+    </LinearLayout>
+
+</LinearLayout>
